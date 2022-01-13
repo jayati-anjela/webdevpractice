@@ -21,3 +21,11 @@ h3 {
 img {
   height: 200px;
 }
+
+/* NOTES
+
+id and class have preference over elements
+
+ids are discouraged
+
+*/
