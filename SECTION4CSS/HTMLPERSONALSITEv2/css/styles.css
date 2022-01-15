@@ -12,7 +12,8 @@ body {
   background-color: #E4F9F5;
   margin: 0;
   position: relative;
-  padding-top: 130px;
+  padding-top: 200px;
+  /* height: 200%; */
 }
 
 /* .middle-container {
@@ -73,7 +74,7 @@ hr {
 /* images in landing page view */
 
 .cloud-top {
-  top: 80px;
+  top: 200px;
   right: 300px;
   position: absolute;
 }
@@ -81,7 +82,11 @@ hr {
 .cloud-bottom {
   position: absolute;
   left: 300px;
-  bottom: 200px;
+  bottom: 370px;
+}
+
+.mountain {
+  padding-top: 100px;
 }
 
 /* intro page */
@@ -89,6 +94,16 @@ hr {
 .pfppic {
   margin-top: 130px;
 }
+
+/* .profile p {
+  size: 1rem;
+} */
+
+.profile {
+  margin: 0 auto;
+  width: 80%;
+}
+
 
 /* skills section */
 
@@ -121,9 +136,9 @@ hr {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
   background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   background-image: -o-linear-gradient(top, #11cdd4, #11999e);
   background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
@@ -138,9 +153,9 @@ hr {
   background: #30e3cb;
   background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
 
