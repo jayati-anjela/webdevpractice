@@ -1,8 +1,12 @@
+/* body */
+
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', sans-serif;
 }
+
+/* containers */
 
 .top-container {
   background-color: #E4F9F5;
@@ -11,22 +15,49 @@ body {
   padding-top: 100px;
 }
 
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+/* headings */
+
 h1 {
-  margin: 0;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  line-height: 0.5;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
 }
+
+/* anchor tag */
+
+a {
+  color: #11999E;
+}
+
+/* span */
 
 .pro {
   text-decoration: underline;
 }
+
+/* images in landing page view */
 
 .cloud-top {
   top: 50px;
@@ -38,4 +69,21 @@ h3 {
   position: absolute;
   left: 300px;
   bottom: 300px;
+}
+
+/* skills section */
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.workingimg {
+  width: 25%;
+}
+
+.meditationimg {
+  width: 25%;
 }
