@@ -30,6 +30,7 @@ body {
 #title {
   background-color: #ff5c75;
   color: white;
+  overflow: hidden;
 }
 
 h1 {
@@ -47,6 +48,7 @@ h1 {
   width: 70%;
   transform: rotate(25deg);
   padding-left: 3rem;
+  margin-bottom: -35%;
 }
 
 .bttn {
