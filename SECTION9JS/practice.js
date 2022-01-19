@@ -15,3 +15,8 @@ var remnum = 240 - inputtext.length;
 var tweet = inputtext.slice(0,140);
 alert("Your tweet is: " + tweet + " any missing part goes beyond the character limit.");
 alert("You have written " + inputtext.length + " characters. You have " + remnum + " characters remaining.")
+
+// compact code for the above ^
+
+var inputtext = prompt("Write your tweet: ");
+alert("Your tweet is: " + inputtext.slice(0,140) );
