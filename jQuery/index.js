@@ -10,9 +10,13 @@
 
 /* to add one class
  $("h1").addClass("big-title"); */
+/* */
 
-// add multiple classes
- $("h1").addClass("big-title marginn");
+/*
+add multiple classes
+$("h1").addClass("big-title marginn");
+*/
+
 
  // to check if a item has that said class
 
@@ -25,3 +29,10 @@
  // attr is used for the js attribute method, here it sets the value
 
  $("input").attr("type","text");
+
+ //adding eventListener
+
+ $("h1").click(function () {
+
+   $("h1").css("color", "violet");
+ });
