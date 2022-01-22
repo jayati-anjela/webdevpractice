@@ -21,3 +21,7 @@
  // in jQuery, innerHTML -> html, so for example
 
  $("button").html("<em>Don't click me!</em>")
+
+ // attr is used for the js attribute method, here it sets the value
+
+ $("input").attr("type","text");
