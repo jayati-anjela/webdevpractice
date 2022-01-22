@@ -13,3 +13,11 @@
 
 // add multiple classes
  $("h1").addClass("big-title marginn");
+
+ // to check if a item has that said class
+
+ console.log($("h1").hasClass("big-title")); // gives true or false as output
+
+ // in jQuery, innerHTML -> html, so for example
+
+ $("button").html("<em>Don't click me!</em>")
