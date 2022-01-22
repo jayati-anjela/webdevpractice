@@ -31,8 +31,25 @@ $("h1").addClass("big-title marginn");
  $("input").attr("type","text");
 
  //adding eventListener
+/*
+$("h1").click(function () {
 
- $("h1").click(function () {
+  $("h1").css("color", "violet");
+});
+*/
 
-   $("h1").css("color", "violet");
- });
+
+
+
+//
+$("input").keydown(function(event) {
+
+    console.log(event.key);
+
+});
+
+$("input").keydown(function(event) {
+
+    $("h1").text(event.key);
+
+});
