@@ -1,0 +1,11 @@
+{
+  "name": "bmicalc",
+  "version": "1.0.0",
+  "description": "BMI calc web app",
+  "main": "BMIcalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jayati Anjela Minj",
+  "license": "ISC"
+}
