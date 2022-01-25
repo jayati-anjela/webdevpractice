@@ -1,0 +1,14 @@
+{
+  "name": "weatherproject",
+  "version": "1.0.0",
+  "description": "WeatherApp to test API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jayati Anjela Minj",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
