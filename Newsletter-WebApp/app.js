@@ -12,6 +12,15 @@ app.get("/", function(req,res) {
   res.sendFile(__dirname + "/index.html");
 });
 
+app.post("/", function(req,res) {
+
+  var firstName = req.body.fName;
+  var lastName = req.body.lName;
+  var emailid = req.body.email;
+
+  console.log(firstName, lastName, emailid);
+});
+
 
 
 
