@@ -33,13 +33,13 @@ app.post("/", function(req,res) {
   };
 
   const jsonData = JSON.stringify(data); // turns data into json format
-  const server = "us20";
-  const audienceID = "86b6d1e0ff";
+  const server = ""; // add server (end of the api key after the dash part)
+  const audienceID = ""; // add list id here
   const url = "https://" + server + ".api.mailchimp.com/3.0/lists/" + audienceID;
 
   const options = {
     method: "POST",
-    auth: "juno1:443ebf98b682926e8db7865fd46d2ab7-us20"
+    auth: "juno1: " // add full apikey after the :
   };
 
 const request = https.request(url, options, function (response) {
@@ -62,19 +62,6 @@ request.end();
 app.post("/failure", function(req, res) {
   res.redirect("/");
 });
-
-
-
-
-
-/*
-API KEY -> 443ebf98b682926e8db7865fd46d2ab7-us20 */
-/*
-LIST ID -> 86b6d1e0ff */
-
-
-
-
 
 
 
