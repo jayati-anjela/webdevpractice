@@ -33,6 +33,21 @@ body{
   margin-top: 15px;
 }
 
+.btn {
+  border-radius: 4px;
+  font-family: 'Varela Round', sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+  background: #000000;
+  padding: 10px 17px 10px 18px;
+  text-decoration: none;
+  margin: 0 40%;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
 @media screen and (max-width: 767px) {
   .heading {
     font-size: 4rem;
@@ -43,6 +58,10 @@ body{
     display: block;
     width: 40%;
     height: 40%;
+  }
+
+  .btn {
+    margin-left: 30%;
   }
 }
 
@@ -62,6 +81,11 @@ body{
     width: 60%;
     height: 60%;
     margin: 5% 0 0 20%;
+  }
+
+  .btn {
+    margin-left: 28%;
+
   }
 
 
